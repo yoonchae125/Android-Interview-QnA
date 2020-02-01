@@ -20,7 +20,7 @@ AndroidManifest.xml : 앱에 대한 전체적인 정보를 담고있는 파일�
 
 project > build.gradle : 프로그래머가 직접 작성한 그래들 빌드 스크립트 파일입니다.
 
-gradle > build.gradle : 앱에 대한 컴파일 버전정보, 의존성 프로젝트에 대한 정의가 되어있는 파일입니다.
+module > build.gradle : 앱에 대한 컴파일 버전정보, 의존성 프로젝트에 대한 정의가 되어있는 파일입니다.
 
 ### Q3. 안드로이드에서 다국어 지원을 위해 해야할 작업에 대해서 설명하시오.
 다국어 지원을 위해서는 value resource file을 따로 생성해주는 방식으로 사용합니다.
